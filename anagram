@@ -1,0 +1,7 @@
+value = input("Enter first word: ")
+values = input("Enter second word: ")
+
+if sorted(value) == sorted(values):
+    print("Anagram")
+else:
+    print("Not Anagram")

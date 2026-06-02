@@ -1,0 +1,6 @@
+review = "good service good quality good support"
+
+words = review.split()
+
+for word in set(words):
+    print(word, ":", words.count(word))

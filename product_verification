@@ -1,0 +1,6 @@
+code = "PRD5678"
+
+if code.startswith("PRD"):
+    print("Valid Product")
+else:
+    print("Invalid Product")
